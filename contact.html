@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Nod Motors Terms and Conditions</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="assets/media/img/logo.png" alt="Nod Motors logo" title="Nod Motors logo"></a>
+        <nav id="menu" class="header_navigation">
+            <ul id="header_ul" class="header_ul">
+                <li><a href="index.html">Cars</a></li>
+                <li><a href="terms.html">Terms and Conditions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a id="book" class="book" onclick="myFunction(this)" href="#">Book</a></li>
+            </ul>
+        </nav>
+        <div class="burger" onclick="myFunction(this)">
+                <span class="burger__item1"></span>
+                <span class="burger__item2"></span>
+                <span class="burger__item3"></span>
+        </div>
+    </header>
+    <div id="contact_form" class="contact_form ">
+            <form action="#!" method="post" class="message_info">
+                    <span onclick="contactHide()" id="hide" title="close">&times;</span>
+                    <h1>Booking Form</h1>
+                    <p class="message_info_title">Includes Michelin Pilot Sport 4S tires</p>
+                    <input  class="bookForm" type="text" name="firstname" placeholder="Name">
+                    <p class="write"></p>
+                    <input  class="bookForm" type="text" name="subject" placeholder="Subject">
+                    <p class="write"></p>
+                    <input  class="bookForm" type="text" name="email" placeholder="Email">
+                    <p class="write"></p>
+                    <textarea cols="22" rows="6" placeholder="Message"></textarea>
+                    <a href="#" id="sendBtn" class="send">send</a>
+                </form>
+                <div id="myProgress">
+                        <div id="myBar">1%</div>
+                </div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img src="assets/media/img/check.icon.png" width="70px" height="70px" alt="check icon" title="check icon">
+                    <h2 class="thank">Thank you!</h2>
+                    <p>Your message has been sent successfully.</p>
+                </div>
+            </div>
+        </div>
+        <div id="cntProgress">
+            <div id="cntBar">1%</div>
+        </div>
+        <section class="page4_section1">
+            <aside class="page4_aside1">
+                <div class="page4_aside1_body">
+                <h2>Information</h2>
+                <div class="page4_contact_box">
+                    <div class="page4_contact">
+                    <a class="shake" class="page4_contact_a1" href="tel:+995-595-483-217"><img  src="assets/media/img/Phone2.png" alt="phone" title="phone">(+995) 595 483 217</a>
+                    <a class="shake"   href="https://www.google.com/maps/place/6+%E1%83%9B%E1%83%A3%E1%83%AE%E1%83%A0%E1%83%90%E1%83%9C+%E1%83%9B%E1%83%90%E1%83%AD%E1%83%90%E1%83%95%E1%83%90%E1%83%A0%E1%83%98%E1%83%90%E1%83%9C%E1%83%98%E1%83%A1+%E1%83%A5%E1%83%A3%E1%83%A9%E1%83%90,+%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98/@41.7511133,44.7597976,17z/data=!3m1!4b1!4m5!3m4!1s0x404472610e30f8d7:0xd77fb8279c45687!8m2!3d41.7511093!4d44.7619863" target="blank"><img src="assets/media/img/location2.png" alt="location" title="location">Machavariani STR.6</a>
+                    <a class="shake" href="mailto:contact@test.com"><img src="assets/media/img/email icon.png" alt="email" title="email">info@nodmotors.ge</a>
+                </div>
+                </div>
+                <h2>Message Us</h2>
+                <form action="#!" method="post" class="page4_form">
+                        <input class="putForm" type="text" name="firstname" placeholder="Name">
+                        <p class="wrong"></p>
+                        <input class="putForm" type="text" name="subject" placeholder="Subject">
+                        <p class="wrong"></p>
+                        <input class="putForm" type="text" name="email" placeholder="Email">
+                        <p class="wrong"></p>
+                        <textarea cols="22" rows="6" placeholder="Message"></textarea>
+                </form>
+                <button onclick="cntcFunction()" class="page4_send"> Send </button>
+            </div>
+            </aside>
+            <div class="page4_map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.7871574058536!2d44.76858851481154!3d41.78980047891538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446ddea1eacd23%3A0xb93e11e0a901833a!2z4YOX4YOU4YOS4YOU4YOi4YOQIOGDm-GDneGDouGDneGDoOGDoeGDmA!5e0!3m2!1ska!2sge!4v1557558597172!5m2!1ska!2sge" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+        </section>
+    <footer>
+        <a href="https://smartweb.ge/" target="blank"><img src="assets/media/img/sa_logo.png" alt="Smart logo" title="Smart Logo"></a>
+        <p>&#169; nodmotors GE 2019</p>
+        <div class="contact">
+            <a href="tel:+995-595-483-217">(+995) 595 483 217</a>
+            <a href="mailto:contact@test.com">info@nodmotors.ge</a> 
+        </div>
+    </footer>
+    <button id="back-to-top-btn" class="back-to-top-btn">
+        <span class="icon-arrow-up"><img src="assets/media/img/whitearrow.png" alt="Up" title="Up"></span>
+    </button>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
